@@ -53,3 +53,5 @@ const Gallary = ({tours, setTours, onRemove}) => {
 export default Gallary; 
 
 //Fetch and render tour list with useEffect and state
+
+//Handle loading and error states gracefully
