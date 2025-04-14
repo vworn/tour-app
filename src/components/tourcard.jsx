@@ -28,3 +28,5 @@ const TourCard = ({id, name, info, image, price, onRemove}) => {
 }
    
 export default TourCard;  
+
+//Build TourCard with conditional rendering and interaction
