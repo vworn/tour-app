@@ -6,23 +6,25 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 6rem;
+  padding: 1.5rem;
   will-change: filter;
-  transition: filter 300ms;
+  transition: filter 0.3s ease-in-out;
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 0.67));
 }
+
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2rem rgba(255, 255, 255, 0.67));
 }
 
 @keyframes logo-spin {
-  from {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
@@ -34,9 +36,15 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 2rem;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
 .read-the-docs {
-  color: #888;
+  color: #000;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }

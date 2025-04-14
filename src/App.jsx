@@ -22,3 +22,5 @@ function App() {
   );
 }
 export default App;
+
+//Setup root component with state and props structure
